@@ -1,0 +1,548 @@
+2015-04-01 00:19:58,983 [1] INFO : Start listen socket 0.0.0.0:8856 success
+2015-04-01 00:21:49,841 [1] INFO : Start listen socket 0.0.0.0:8856 success
+2015-04-01 00:21:53,599 [3] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2118
+2015-04-01 00:21:53,637 [6] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2118
+2015-04-01 00:21:53,660 [6] ERROR: IO_Completed System.Net.Sockets.Socket error, message: 未将对象引用设置到对象的实例。
+2015-04-01 00:21:53,678 [6] ERROR:    在 AsyncSocketServer.IntelligentPrediction.BsTree.userBlock(String roadName) 位置 c:\Users\智皓\Desktop\中上\ImagineCup\Server\IntelligentPrediction\Predict_1.cs:行号 462
+   在 AsyncSocketServer.UploadSocketProtocol.Tab() 位置 c:\Users\智皓\Desktop\中上\ImagineCup\Server\AsyncSocketProtocol\UploadSocketProtocol.cs:行号 218
+   在 AsyncSocketServer.UploadSocketProtocol.ProcessCommand(Byte[] buffer, Int32 offset, Int32 count) 位置 c:\Users\智皓\Desktop\中上\ImagineCup\Server\AsyncSocketProtocol\UploadSocketProtocol.cs:行号 63
+   在 AsyncSocketServer.AsyncSocketInvokeElement.ProcessPacket(Byte[] buffer, Int32 offset, Int32 count) 位置 c:\Users\智皓\Desktop\中上\ImagineCup\Server\AsyncSocketCore\AsyncSocketInvokeElement.cs:行号 108
+   在 AsyncSocketServer.AsyncSocketInvokeElement.ProcessReceive(Byte[] buffer, Int32 offset, Int32 count) 位置 c:\Users\智皓\Desktop\中上\ImagineCup\Server\AsyncSocketCore\AsyncSocketInvokeElement.cs:行号 78
+   在 AsyncSocketServer.AsyncSocketServer.ProcessReceive(SocketAsyncEventArgs receiveEventArgs) 位置 c:\Users\智皓\Desktop\中上\ImagineCup\Server\AsyncSocketCore\AsyncSocketServer.cs:行号 230
+   在 AsyncSocketServer.AsyncSocketServer.IO_Completed(Object sender, SocketAsyncEventArgs asyncEventArgs) 位置 c:\Users\智皓\Desktop\中上\ImagineCup\Server\AsyncSocketCore\AsyncSocketServer.cs:行号 184
+2015-04-01 00:22:12,733 [6] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2123
+2015-04-01 00:22:12,737 [4] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2123
+2015-04-01 00:22:12,835 [4] INFO : Client connection disconnected. Local Address: 121.250.220.94:8856 Remote Address: 121.250.220.94:2123
+2015-04-01 00:22:14,269 [6] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2124
+2015-04-01 00:22:14,271 [4] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2124
+2015-04-01 00:22:22,154 [6] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2128
+2015-04-01 00:22:22,154 [4] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2128
+2015-04-01 00:22:58,712 [1] INFO : Start listen socket 0.0.0.0:8856 success
+2015-04-01 00:23:11,783 [3] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2158
+2015-04-01 00:23:11,811 [6] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2158
+2015-04-01 00:23:11,881 [6] INFO : Client connection disconnected. Local Address: 121.250.220.94:8856 Remote Address: 121.250.220.94:2158
+2015-04-01 00:23:13,426 [3] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2159
+2015-04-01 00:23:13,427 [6] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2159
+2015-04-01 00:23:59,805 [3] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2169
+2015-04-01 00:23:59,807 [7] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2169
+2015-04-01 00:24:00,808 [3] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2170
+2015-04-01 00:24:00,809 [7] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2170
+2015-04-01 00:24:01,812 [3] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2173
+2015-04-01 00:24:01,813 [7] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2173
+2015-04-01 00:24:02,817 [3] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2174
+2015-04-01 00:24:02,818 [7] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2174
+2015-04-01 00:24:03,821 [3] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2175
+2015-04-01 00:24:03,822 [7] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2175
+2015-04-01 00:24:04,826 [3] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2176
+2015-04-01 00:24:04,827 [7] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2176
+2015-04-01 00:24:05,830 [3] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2180
+2015-04-01 00:24:05,831 [7] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2180
+2015-04-01 00:24:06,834 [3] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2181
+2015-04-01 00:24:06,835 [7] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2181
+2015-04-01 00:24:07,840 [3] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2182
+2015-04-01 00:24:07,841 [7] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2182
+2015-04-01 00:24:08,844 [3] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2183
+2015-04-01 00:24:08,846 [7] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2183
+2015-04-01 00:24:09,849 [3] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2184
+2015-04-01 00:24:09,850 [7] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2184
+2015-04-01 00:24:10,853 [3] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2185
+2015-04-01 00:24:10,854 [7] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2185
+2015-04-01 00:24:11,858 [3] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2186
+2015-04-01 00:24:11,859 [7] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2186
+2015-04-01 00:24:12,862 [3] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2188
+2015-04-01 00:24:12,863 [7] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2188
+2015-04-01 00:24:13,866 [3] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2189
+2015-04-01 00:24:13,867 [7] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2189
+2015-04-01 00:24:14,869 [3] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2190
+2015-04-01 00:24:14,871 [7] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2190
+2015-04-01 00:24:15,874 [3] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2191
+2015-04-01 00:24:15,876 [4] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2191
+2015-04-01 00:24:16,878 [3] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2194
+2015-04-01 00:24:16,879 [4] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2194
+2015-04-01 00:24:17,882 [3] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2195
+2015-04-01 00:24:17,884 [4] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2195
+2015-04-01 00:24:18,886 [3] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2196
+2015-04-01 00:24:18,887 [4] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2196
+2015-04-01 00:24:19,890 [3] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2197
+2015-04-01 00:24:19,891 [4] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2197
+2015-04-01 00:24:20,894 [3] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2198
+2015-04-01 00:24:20,895 [4] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2198
+2015-04-01 00:24:21,898 [3] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2199
+2015-04-01 00:24:21,899 [4] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2199
+2015-04-01 00:24:22,902 [3] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2200
+2015-04-01 00:24:22,903 [4] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2200
+2015-04-01 00:24:23,907 [3] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2201
+2015-04-01 00:24:23,908 [4] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2201
+2015-04-01 00:24:24,912 [3] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2202
+2015-04-01 00:24:24,912 [4] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2202
+2015-04-01 00:24:25,917 [3] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2203
+2015-04-01 00:24:25,918 [4] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2203
+2015-04-01 00:24:26,923 [3] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2204
+2015-04-01 00:24:26,924 [4] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2204
+2015-04-01 00:24:27,927 [3] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2207
+2015-04-01 00:24:27,928 [4] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2207
+2015-04-01 00:24:28,931 [3] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2208
+2015-04-01 00:24:28,932 [4] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2208
+2015-04-01 00:24:29,938 [3] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2209
+2015-04-01 00:24:29,939 [4] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2209
+2015-04-01 00:24:30,943 [3] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2210
+2015-04-01 00:24:30,945 [4] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2210
+2015-04-01 00:24:31,947 [3] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2211
+2015-04-01 00:24:31,948 [4] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2211
+2015-04-01 00:24:32,950 [3] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2212
+2015-04-01 00:24:32,951 [4] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2212
+2015-04-01 00:24:33,955 [3] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2213
+2015-04-01 00:24:33,956 [4] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2213
+2015-04-01 00:24:34,959 [3] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2214
+2015-04-01 00:24:34,960 [4] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2214
+2015-04-01 00:24:35,963 [3] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2215
+2015-04-01 00:24:35,964 [4] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2215
+2015-04-01 00:24:36,967 [3] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2216
+2015-04-01 00:24:36,968 [4] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2216
+2015-04-01 00:24:37,971 [3] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2217
+2015-04-01 00:24:37,972 [4] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2217
+2015-04-01 00:24:38,976 [3] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2220
+2015-04-01 00:24:38,977 [4] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2220
+2015-04-01 00:24:39,982 [3] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2221
+2015-04-01 00:24:39,983 [4] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2221
+2015-04-01 00:24:40,986 [3] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2222
+2015-04-01 00:24:40,986 [4] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2222
+2015-04-01 00:24:41,990 [3] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2223
+2015-04-01 00:24:41,991 [4] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2223
+2015-04-01 00:24:42,995 [3] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2224
+2015-04-01 00:24:42,995 [4] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2224
+2015-04-01 00:24:43,998 [3] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2225
+2015-04-01 00:24:43,999 [4] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2225
+2015-04-01 00:24:45,003 [3] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2226
+2015-04-01 00:24:45,005 [4] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2226
+2015-04-01 00:24:46,009 [3] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2227
+2015-04-01 00:24:46,011 [4] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2227
+2015-04-01 00:24:47,012 [3] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2228
+2015-04-01 00:24:47,013 [4] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2228
+2015-04-01 00:24:48,016 [3] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2229
+2015-04-01 00:24:48,017 [4] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2229
+2015-04-01 00:24:49,020 [3] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2230
+2015-04-01 00:24:49,021 [4] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2230
+2015-04-01 00:25:36,781 [4] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2196
+2015-04-01 00:25:36,790 [4] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2212
+2015-04-01 00:25:36,791 [6] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2175
+2015-04-01 00:25:36,792 [4] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2191
+2015-04-01 00:25:36,793 [6] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2207
+2015-04-01 00:25:36,793 [9] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2226
+2015-04-01 00:25:36,794 [6] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2194
+2015-04-01 00:25:36,794 [10] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2217
+2015-04-01 00:25:36,796 [4] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2182
+2015-04-01 00:25:36,797 [9] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2184
+2015-04-01 00:25:36,798 [6] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2203
+2015-04-01 00:25:36,799 [9] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2224
+2015-04-01 00:25:36,800 [4] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2169
+2015-04-01 00:25:36,801 [6] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2225
+2015-04-01 00:25:36,802 [10] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2183
+2015-04-01 00:25:36,806 [6] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2202
+2015-04-01 00:25:36,807 [10] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2188
+2015-04-01 00:25:36,808 [9] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2190
+2015-04-01 00:25:36,809 [4] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2211
+2015-04-01 00:25:36,810 [4] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2201
+2015-04-01 00:25:36,812 [4] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2223
+2015-04-01 00:25:36,813 [4] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2174
+2015-04-01 00:25:36,814 [4] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2200
+2015-04-01 00:25:36,815 [6] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2216
+2015-04-01 00:25:36,817 [9] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2199
+2015-04-01 00:25:36,818 [4] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2228
+2015-04-01 00:25:36,821 [9] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2198
+2015-04-01 00:25:36,822 [10] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2185
+2015-04-01 00:25:36,822 [6] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2180
+2015-04-01 00:25:36,823 [6] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2230
+2015-04-01 00:25:36,824 [6] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2186
+2015-04-01 00:25:36,826 [6] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2181
+2015-04-01 00:25:36,827 [6] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2221
+2015-04-01 00:25:36,829 [6] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2210
+2015-04-01 00:25:36,830 [6] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2176
+2015-04-01 00:25:36,832 [6] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2213
+2015-04-01 00:25:36,833 [4] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2197
+2015-04-01 00:25:36,834 [9] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2173
+2015-04-01 00:25:36,835 [4] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2170
+2015-04-01 00:25:36,835 [10] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2195
+2015-04-01 00:25:36,836 [4] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2204
+2015-04-01 00:25:36,837 [9] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2189
+2015-04-01 00:25:36,838 [6] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2208
+2015-04-01 00:25:36,839 [4] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2215
+2015-04-01 00:25:36,840 [6] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2229
+2015-04-01 00:25:36,841 [6] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2227
+2015-04-01 00:25:36,842 [10] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2209
+2015-04-01 00:25:36,843 [9] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2214
+2015-04-01 00:25:36,844 [9] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2159
+2015-04-01 00:25:36,846 [4] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2220
+2015-04-01 00:25:36,846 [6] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2222
+2015-04-01 00:26:37,691 [10] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2260
+2015-04-01 00:26:37,692 [10] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2260
+2015-04-01 00:26:38,681 [10] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2261
+2015-04-01 00:26:38,683 [11] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2261
+2015-04-01 00:26:39,685 [10] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2266
+2015-04-01 00:26:39,686 [11] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2266
+2015-04-01 00:26:40,690 [10] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2267
+2015-04-01 00:26:40,691 [11] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2267
+2015-04-01 00:26:41,694 [10] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2268
+2015-04-01 00:26:41,695 [11] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2268
+2015-04-01 00:26:42,697 [10] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2269
+2015-04-01 00:26:42,698 [11] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2269
+2015-04-01 00:26:43,701 [10] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2270
+2015-04-01 00:26:43,702 [11] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2270
+2015-04-01 00:26:44,706 [10] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2271
+2015-04-01 00:26:44,707 [11] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2271
+2015-04-01 00:26:45,709 [10] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2272
+2015-04-01 00:26:45,710 [11] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2272
+2015-04-01 00:26:46,713 [10] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2273
+2015-04-01 00:26:46,714 [11] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2273
+2015-04-01 00:26:47,717 [10] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2274
+2015-04-01 00:26:47,718 [11] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2274
+2015-04-01 00:26:48,722 [10] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2275
+2015-04-01 00:26:48,723 [11] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2275
+2015-04-01 00:26:49,726 [10] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2276
+2015-04-01 00:26:49,727 [11] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2276
+2015-04-01 00:26:50,730 [10] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2279
+2015-04-01 00:26:50,731 [11] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2279
+2015-04-01 00:26:51,734 [10] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2281
+2015-04-01 00:26:51,735 [11] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2281
+2015-04-01 00:26:52,739 [10] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2282
+2015-04-01 00:26:52,740 [11] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2282
+2015-04-01 00:26:53,742 [10] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2283
+2015-04-01 00:26:53,744 [11] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2283
+2015-04-01 00:26:54,746 [10] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2284
+2015-04-01 00:26:54,747 [11] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2284
+2015-04-01 00:26:55,750 [10] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2285
+2015-04-01 00:26:55,751 [11] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2285
+2015-04-01 00:26:56,754 [10] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2286
+2015-04-01 00:26:56,755 [11] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2286
+2015-04-01 00:29:02,161 [11] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2361
+2015-04-01 00:29:02,169 [16] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2361
+2015-04-01 00:29:03,162 [11] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2362
+2015-04-01 00:29:03,163 [16] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2362
+2015-04-01 00:29:04,165 [11] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2363
+2015-04-01 00:29:04,166 [16] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2363
+2015-04-01 00:29:05,169 [11] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2364
+2015-04-01 00:29:05,170 [16] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2364
+2015-04-01 00:29:06,172 [11] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2365
+2015-04-01 00:29:06,173 [16] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2365
+2015-04-01 00:29:07,176 [11] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2366
+2015-04-01 00:29:07,177 [16] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2366
+2015-04-01 00:29:08,179 [11] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2368
+2015-04-01 00:29:08,180 [16] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2368
+2015-04-01 00:29:09,183 [11] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2369
+2015-04-01 00:29:09,184 [16] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2369
+2015-04-01 00:29:10,187 [11] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2370
+2015-04-01 00:29:10,188 [16] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2370
+2015-04-01 00:29:11,189 [11] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2371
+2015-04-01 00:29:11,190 [16] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2371
+2015-04-01 00:29:12,192 [11] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2372
+2015-04-01 00:29:12,193 [16] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2372
+2015-04-01 00:29:13,195 [11] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2375
+2015-04-01 00:29:13,196 [16] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2375
+2015-04-01 00:29:14,198 [11] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2376
+2015-04-01 00:29:14,199 [16] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2376
+2015-04-01 00:29:15,202 [11] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2377
+2015-04-01 00:29:15,203 [16] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2377
+2015-04-01 00:29:16,205 [11] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2378
+2015-04-01 00:29:16,206 [16] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2378
+2015-04-01 00:29:17,208 [11] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2379
+2015-04-01 00:29:17,210 [16] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2379
+2015-04-01 00:29:18,211 [11] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2380
+2015-04-01 00:29:18,212 [15] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2380
+2015-04-01 00:29:19,215 [11] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2381
+2015-04-01 00:29:19,216 [15] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2381
+2015-04-01 00:29:20,218 [11] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2382
+2015-04-01 00:29:20,219 [15] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2382
+2015-04-01 00:29:21,222 [11] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2384
+2015-04-01 00:29:21,223 [15] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2384
+2015-04-01 00:30:24,224 [15] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2377
+2015-04-01 00:30:24,233 [15] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2375
+2015-04-01 00:30:24,234 [12] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2260
+2015-04-01 00:30:24,234 [10] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2381
+2015-04-01 00:30:24,234 [9] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2371
+2015-04-01 00:30:24,235 [15] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2364
+2015-04-01 00:30:24,236 [15] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2286
+2015-04-01 00:30:24,237 [12] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2384
+2015-04-01 00:30:24,239 [10] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2370
+2015-04-01 00:30:24,240 [12] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2279
+2015-04-01 00:30:24,241 [9] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2270
+2015-04-01 00:30:24,242 [15] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2362
+2015-04-01 00:30:24,244 [12] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2271
+2015-04-01 00:30:24,246 [10] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2273
+2015-04-01 00:30:24,247 [15] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2268
+2015-04-01 00:30:24,248 [10] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2269
+2015-04-01 00:30:24,249 [9] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2284
+2015-04-01 00:30:24,251 [15] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2368
+2015-04-01 00:30:24,252 [12] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2272
+2015-04-01 00:30:24,253 [12] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2378
+2015-04-01 00:30:24,254 [12] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2380
+2015-04-01 00:30:24,255 [15] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2281
+2015-04-01 00:30:24,256 [10] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2376
+2015-04-01 00:30:24,257 [9] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2369
+2015-04-01 00:30:24,258 [12] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2365
+2015-04-01 00:30:24,260 [9] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2382
+2015-04-01 00:30:24,262 [15] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2372
+2015-04-01 00:30:24,262 [10] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2275
+2015-04-01 00:30:24,264 [9] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2361
+2015-04-01 00:30:24,266 [15] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2285
+2015-04-01 00:30:24,266 [12] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2363
+2015-04-01 00:30:24,268 [9] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2283
+2015-04-01 00:30:24,269 [10] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2274
+2015-04-01 00:30:24,270 [12] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2366
+2015-04-01 00:30:24,272 [9] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2379
+2015-04-01 00:30:24,273 [15] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2276
+2015-04-01 00:30:24,275 [15] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2282
+2015-04-01 00:30:24,277 [10] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2267
+2015-04-01 00:30:24,278 [12] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2266
+2015-04-01 00:30:24,279 [15] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2261
+2015-04-01 00:30:31,435 [10] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2416
+2015-04-01 00:30:31,438 [10] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2416
+2015-04-01 00:30:31,528 [10] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2417
+2015-04-01 00:30:31,528 [15] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2417
+2015-04-01 00:30:31,632 [10] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2418
+2015-04-01 00:30:31,633 [15] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2418
+2015-04-01 00:30:31,735 [10] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2419
+2015-04-01 00:30:31,737 [15] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2419
+2015-04-01 00:30:31,840 [15] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2420
+2015-04-01 00:30:31,841 [10] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2420
+2015-04-01 00:30:31,943 [15] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2421
+2015-04-01 00:30:31,945 [10] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2421
+2015-04-01 00:30:32,047 [10] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2422
+2015-04-01 00:30:32,049 [15] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2422
+2015-04-01 00:30:32,151 [10] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2423
+2015-04-01 00:30:32,153 [15] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2423
+2015-04-01 00:30:32,255 [10] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2424
+2015-04-01 00:30:32,256 [15] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2424
+2015-04-01 00:30:32,358 [15] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2425
+2015-04-01 00:30:32,361 [10] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2425
+2015-04-01 00:30:32,462 [15] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2426
+2015-04-01 00:30:32,463 [10] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2426
+2015-04-01 00:30:32,566 [15] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2427
+2015-04-01 00:30:32,568 [10] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2427
+2015-04-01 00:30:32,670 [15] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2428
+2015-04-01 00:30:32,672 [10] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2428
+2015-04-01 00:30:32,773 [15] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2429
+2015-04-01 00:30:32,775 [10] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2429
+2015-04-01 00:30:32,876 [15] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2430
+2015-04-01 00:30:32,877 [10] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2430
+2015-04-01 00:30:32,980 [15] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2431
+2015-04-01 00:30:32,981 [10] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2431
+2015-04-01 00:30:33,084 [15] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2432
+2015-04-01 00:30:33,085 [10] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2432
+2015-04-01 00:30:33,189 [15] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2433
+2015-04-01 00:30:33,190 [10] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2433
+2015-04-01 00:30:33,291 [15] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2434
+2015-04-01 00:30:33,292 [10] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2434
+2015-04-01 00:30:33,396 [15] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2435
+2015-04-01 00:30:33,397 [10] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2435
+2015-04-01 00:30:33,480 [15] INFO : Client connection disconnected. Local Address: 121.250.220.94:8856 Remote Address: 121.250.220.94:2435
+2015-04-01 00:33:10,104 [15] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2416
+2015-04-01 00:33:10,111 [15] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2418
+2015-04-01 00:33:10,111 [19] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2417
+2015-04-01 00:33:10,111 [21] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2419
+2015-04-01 00:33:10,112 [20] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2420
+2015-04-01 00:33:10,112 [15] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2421
+2015-04-01 00:33:10,113 [19] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2422
+2015-04-01 00:33:10,114 [20] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2423
+2015-04-01 00:33:10,115 [19] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2424
+2015-04-01 00:33:10,116 [15] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2425
+2015-04-01 00:33:10,117 [20] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2426
+2015-04-01 00:33:10,118 [21] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2427
+2015-04-01 00:33:10,119 [20] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2428
+2015-04-01 00:33:10,120 [19] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2429
+2015-04-01 00:33:10,121 [19] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2430
+2015-04-01 00:33:10,121 [15] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2431
+2015-04-01 00:33:10,122 [21] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2432
+2015-04-01 00:33:10,123 [20] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2433
+2015-04-01 00:33:10,124 [15] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2434
+2015-04-01 00:33:18,815 [15] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2773
+2015-04-01 00:33:18,819 [21] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2772
+2015-04-01 00:33:18,820 [15] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2773
+2015-04-01 00:33:18,821 [21] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2774
+2015-04-01 00:33:18,824 [15] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2772
+2015-04-01 00:33:19,034 [20] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2775
+2015-04-01 00:33:19,036 [20] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2777
+2015-04-01 00:33:19,037 [20] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2777
+2015-04-01 00:33:19,039 [20] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2776
+2015-04-01 00:33:19,040 [20] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2778
+2015-04-01 00:33:19,041 [20] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2779
+2015-04-01 00:33:19,043 [20] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2780
+2015-04-01 00:33:19,044 [20] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2781
+2015-04-01 00:33:19,139 [19] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2774
+2015-04-01 00:33:19,139 [21] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2775
+2015-04-01 00:33:25,643 [21] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2778
+2015-04-01 00:33:25,643 [19] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2776
+2015-04-01 00:33:36,236 [19] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2780
+2015-04-01 00:33:36,240 [19] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2775
+2015-04-01 00:33:36,241 [21] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2774
+2015-04-01 00:33:36,241 [19] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2773
+2015-04-01 00:33:36,243 [19] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2777
+2015-04-01 00:33:36,244 [23] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2772
+2015-04-01 00:33:36,244 [19] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2778
+2015-04-01 00:33:36,245 [24] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2776
+2015-04-01 00:33:36,248 [23] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2779
+2015-04-01 00:33:36,252 [21] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2781
+2015-04-01 00:33:58,300 [21] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2796
+2015-04-01 00:33:58,305 [21] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2800
+2015-04-01 00:33:58,311 [26] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2796
+2015-04-01 00:33:58,312 [21] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2800
+2015-04-01 00:33:58,313 [21] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2799
+2015-04-01 00:33:58,315 [21] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2798
+2015-04-01 00:33:58,315 [27] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2799
+2015-04-01 00:33:58,317 [21] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2798
+2015-04-01 00:33:58,320 [28] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2797
+2015-04-01 00:33:58,322 [26] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2797
+2015-04-01 00:33:58,322 [21] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2801
+2015-04-01 00:33:58,327 [26] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2801
+2015-04-01 00:33:58,327 [27] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2802
+2015-04-01 00:33:58,330 [26] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2802
+2015-04-01 00:33:58,330 [21] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2803
+2015-04-01 00:33:58,341 [26] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2803
+2015-04-01 00:33:58,341 [27] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2804
+2015-04-01 00:33:58,347 [21] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2805
+2015-04-01 00:33:58,348 [26] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2804
+2015-04-01 00:33:58,349 [27] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2805
+2015-04-01 00:33:58,349 [28] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2806
+2015-04-01 00:33:58,360 [26] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2806
+2015-04-01 00:33:58,360 [27] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2807
+2015-04-01 00:33:58,369 [26] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2807
+2015-04-01 00:33:58,369 [28] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2808
+2015-04-01 00:33:58,377 [27] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2808
+2015-04-01 00:33:58,377 [21] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2809
+2015-04-01 00:33:58,388 [26] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2810
+2015-04-01 00:33:58,388 [27] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2809
+2015-04-01 00:33:58,390 [21] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2810
+2015-04-01 00:33:58,390 [28] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2811
+2015-04-01 00:33:58,397 [27] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2811
+2015-04-01 00:33:58,397 [26] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2812
+2015-04-01 00:33:58,403 [21] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2812
+2015-04-01 00:33:58,404 [28] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2813
+2015-04-01 00:33:58,409 [27] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2813
+2015-04-01 00:33:58,409 [26] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2814
+2015-04-01 00:33:58,417 [21] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2814
+2015-04-01 00:33:58,417 [28] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2815
+2015-04-01 00:33:58,423 [27] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2815
+2015-04-01 00:33:59,340 [21] ERROR: IO_Completed System.Net.Sockets.Socket error, message: 索引和计数必须引用该缓冲区内的位置。
+参数名: bytes
+2015-04-01 00:33:59,349 [21] ERROR:    在 System.Text.UTF8Encoding.GetString(Byte[] bytes, Int32 index, Int32 count)
+   在 AsyncSocketServer.AsyncSocketInvokeElement.ProcessPacket(Byte[] buffer, Int32 offset, Int32 count) 位置 c:\Users\智皓\Desktop\中上\ImagineCup\Server\AsyncSocketCore\AsyncSocketInvokeElement.cs:行号 104
+   在 AsyncSocketServer.AsyncSocketInvokeElement.ProcessReceive(Byte[] buffer, Int32 offset, Int32 count) 位置 c:\Users\智皓\Desktop\中上\ImagineCup\Server\AsyncSocketCore\AsyncSocketInvokeElement.cs:行号 78
+   在 AsyncSocketServer.AsyncSocketServer.ProcessReceive(SocketAsyncEventArgs receiveEventArgs) 位置 c:\Users\智皓\Desktop\中上\ImagineCup\Server\AsyncSocketCore\AsyncSocketServer.cs:行号 230
+   在 AsyncSocketServer.AsyncSocketServer.IO_Completed(Object sender, SocketAsyncEventArgs asyncEventArgs) 位置 c:\Users\智皓\Desktop\中上\ImagineCup\Server\AsyncSocketCore\AsyncSocketServer.cs:行号 184
+2015-04-01 00:35:02,909 [21] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2801
+2015-04-01 00:35:02,919 [7] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2800
+2015-04-01 00:35:02,919 [21] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2799
+2015-04-01 00:35:02,920 [11] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2797
+2015-04-01 00:35:02,920 [7] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2796
+2015-04-01 00:35:02,920 [16] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2798
+2015-04-01 00:35:02,921 [11] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2807
+2015-04-01 00:35:02,922 [16] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2803
+2015-04-01 00:35:02,923 [7] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2814
+2015-04-01 00:35:02,924 [21] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2813
+2015-04-01 00:35:02,925 [11] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2806
+2015-04-01 00:35:02,926 [21] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2812
+2015-04-01 00:35:02,926 [11] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2811
+2015-04-01 00:35:02,927 [7] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2805
+2015-04-01 00:35:02,928 [11] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2810
+2015-04-01 00:35:02,929 [16] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2809
+2015-04-01 00:35:02,929 [7] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2802
+2015-04-01 00:35:02,930 [21] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2804
+2015-04-01 00:35:02,931 [11] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2808
+2015-04-01 00:35:25,057 [7] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2844
+2015-04-01 00:35:25,087 [7] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2842
+2015-04-01 00:35:25,088 [7] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2842
+2015-04-01 00:35:25,090 [7] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2840
+2015-04-01 00:35:25,091 [7] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2840
+2015-04-01 00:35:25,092 [7] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2841
+2015-04-01 00:35:25,093 [7] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2841
+2015-04-01 00:35:25,095 [7] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2839
+2015-04-01 00:35:25,097 [7] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2843
+2015-04-01 00:35:25,099 [7] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2845
+2015-04-01 00:35:25,155 [30] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2844
+2015-04-01 00:35:25,172 [7] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2846
+2015-04-01 00:35:25,580 [30] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2847
+2015-04-01 00:35:25,581 [7] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2848
+2015-04-01 00:35:25,583 [30] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2849
+2015-04-01 00:35:25,584 [7] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2850
+2015-04-01 00:35:25,586 [30] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2851
+2015-04-01 00:35:25,591 [30] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2852
+2015-04-01 00:35:25,683 [30] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2853
+2015-04-01 00:35:25,783 [30] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2854
+2015-04-01 00:35:25,884 [30] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2855
+2015-04-01 00:35:25,979 [30] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2856
+2015-04-01 00:35:25,994 [30] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2857
+2015-04-01 00:35:26,087 [30] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2858
+2015-04-01 00:35:32,174 [30] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2840
+2015-04-01 00:35:32,174 [7] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2839
+2015-04-01 00:35:32,179 [30] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2841
+2015-04-01 00:35:32,180 [31] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2842
+2015-04-01 00:35:32,184 [32] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2843
+2015-04-01 00:35:32,189 [30] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2844
+2015-04-01 00:35:32,190 [32] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2845
+2015-04-01 00:35:32,191 [7] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2846
+2015-04-01 00:35:32,194 [31] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2847
+2015-04-01 00:35:32,196 [32] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2848
+2015-04-01 00:35:32,197 [30] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2849
+2015-04-01 00:35:32,198 [32] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2850
+2015-04-01 00:35:32,199 [7] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2851
+2015-04-01 00:35:32,200 [31] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2852
+2015-04-01 00:35:32,201 [7] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2853
+2015-04-01 00:35:32,202 [32] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2854
+2015-04-01 00:35:32,203 [30] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2855
+2015-04-01 00:35:32,204 [30] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2856
+2015-04-01 00:35:32,205 [31] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2857
+2015-04-01 00:35:32,206 [30] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2858
+2015-04-01 00:35:42,121 [30] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2868
+2015-04-01 00:35:42,122 [31] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2865
+2015-04-01 00:35:42,123 [30] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2869
+2015-04-01 00:35:42,129 [31] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2865
+2015-04-01 00:35:42,221 [32] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2868
+2015-04-01 00:35:42,333 [30] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2867
+2015-04-01 00:35:42,540 [7] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2869
+2015-04-01 00:35:43,261 [31] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2867
+2015-04-01 00:35:43,289 [34] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2866
+2015-04-01 00:35:43,335 [7] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2866
+2015-04-01 00:35:43,335 [30] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2864
+2015-04-01 00:35:43,380 [31] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2870
+2015-04-01 00:35:43,381 [30] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2871
+2015-04-01 00:35:43,382 [31] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2872
+2015-04-01 00:35:43,383 [30] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2873
+2015-04-01 00:35:48,809 [30] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2864
+2015-04-01 00:35:48,810 [31] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2867
+2015-04-01 00:35:48,810 [7] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2865
+2015-04-01 00:35:48,811 [34] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2866
+2015-04-01 00:35:48,811 [30] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2868
+2015-04-01 00:35:48,812 [7] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2869
+2015-04-01 00:35:48,820 [32] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2870
+2015-04-01 00:35:48,824 [31] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2871
+2015-04-01 00:35:48,827 [32] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2872
+2015-04-01 00:35:48,828 [30] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2873
+2015-04-01 00:36:03,825 [30] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2887
+2015-04-01 00:36:03,828 [30] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2887
+2015-04-01 00:36:03,918 [30] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2888
+2015-04-01 00:36:03,919 [32] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2888
+2015-04-01 00:36:04,022 [30] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2889
+2015-04-01 00:36:04,024 [32] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2889
+2015-04-01 00:36:04,126 [30] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2890
+2015-04-01 00:36:04,127 [32] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2890
+2015-04-01 00:36:04,228 [30] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2891
+2015-04-01 00:36:04,229 [32] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2891
+2015-04-01 00:36:04,332 [30] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2892
+2015-04-01 00:36:04,333 [32] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2892
+2015-04-01 00:36:04,436 [30] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2893
+2015-04-01 00:36:04,437 [32] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2893
+2015-04-01 00:36:04,540 [30] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2894
+2015-04-01 00:36:04,541 [32] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2894
+2015-04-01 00:36:04,642 [30] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2895
+2015-04-01 00:36:04,643 [32] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2895
+2015-04-01 00:36:04,747 [30] INFO : Client connection accepted. Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2896
+2015-04-01 00:36:04,748 [32] INFO : Building socket invoke element AsyncSocketServer.UploadSocketProtocol.Local Address: 121.250.220.94:8856, Remote Address: 121.250.220.94:2896
+2015-04-01 00:37:05,327 [32] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2888
+2015-04-01 00:37:05,330 [37] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2896
+2015-04-01 00:37:05,335 [32] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2892
+2015-04-01 00:37:05,336 [38] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2890
+2015-04-01 00:37:05,336 [37] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2895
+2015-04-01 00:37:05,337 [39] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2887
+2015-04-01 00:37:05,337 [38] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2891
+2015-04-01 00:37:05,338 [37] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2894
+2015-04-01 00:37:05,339 [38] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2889
+2015-04-01 00:37:05,340 [32] INFO : Client connection disconnected. Local Address: 0.0.0.0:8856 Remote Address: 121.250.220.94:2893

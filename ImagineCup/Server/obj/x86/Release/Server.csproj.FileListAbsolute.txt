@@ -1,0 +1,6 @@
+C:\Users\智皓\Bin\SocketAsyncSvr.exe.config
+C:\Users\智皓\Bin\SocketAsyncSvr.exe
+C:\Users\智皓\Bin\SocketAsyncSvr.pdb
+C:\Users\智皓\Desktop\ImagineCup\Server\obj\x86\Release\SocketAsyncSvr.exe
+C:\Users\智皓\Desktop\ImagineCup\Server\obj\x86\Release\SocketAsyncSvr.pdb
+C:\Users\智皓\Desktop\ImagineCup\Server\obj\x86\Release\Server.csprojResolveAssemblyReference.cache

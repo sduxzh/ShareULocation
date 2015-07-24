@@ -1,0 +1,40 @@
+﻿<phone:PhoneApplicationPage
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity" xmlns:ec="clr-namespace:Microsoft.Expression.Interactivity.Core;assembly=Microsoft.Expression.Interactions"
+    x:Class="ImagineCup.RegisterPage"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+    <Grid HorizontalAlignment="Left" Height="768" VerticalAlignment="Top" Width="480">
+        <Grid.Background>
+            <ImageBrush Stretch="Fill" ImageSource="/Images/register000.jpg"/>
+        </Grid.Background>
+        <TextBox x:Name="userNameTextBox" HorizontalAlignment="Center" Height="72" Margin="64,284,24,412" TextWrapping="Wrap" VerticalAlignment="Center" Width="392" Background="{x:Null}" BorderBrush="{StaticResource TransparentBrush}" GotFocus="userNameTextBox_GotFocus" FontFamily="YouYuan" Foreground="White" BorderThickness="0" SelectionForeground="White" CaretBrush="White">
+            <TextBox.SelectionBackground>
+                <ImageBrush Stretch="Fill" ImageSource="/Images/blankbackground.png" Opacity="0.19"/>
+            </TextBox.SelectionBackground>
+        </TextBox>
+        <PasswordBox x:Name="passwordBox" HorizontalAlignment="Center" Margin="64,325,24,374" VerticalAlignment="Center" Width="392" Background="{x:Null}" BorderBrush="{StaticResource TransparentBrush}" Foreground="White" Height="69" SelectionBackground="{x:Null}" BorderThickness="0" GotFocus="passwordBox_GotFocus" CaretBrush="White"/>
+        <PasswordBox x:Name="passwordagainBox" HorizontalAlignment="Center" Margin="64,373,24,322" VerticalAlignment="Center" Width="392" BorderBrush="{x:Null}" Background="{x:Null}" Foreground="White" FontFamily="Portable User Interface" SelectionBackground="{x:Null}" Height="73" Password="" BorderThickness="0" GotFocus="passwordagainBox_GotFocus" CaretBrush="White"/>
+        <Button x:Name="registerButton" Content="" HorizontalAlignment="Left" Margin="165,480,0,0" VerticalAlignment="Top" Height="74" Width="148" BorderBrush="{x:Null}" Foreground="{x:Null}" Click="registerButton_Click" ClickMode="Press">
+            <Button.Background>
+                <ImageBrush Stretch="Fill" ImageSource="/Images/registerButton.png"/>
+            </Button.Background>
+        </Button>
+        <TextBox x:Name="emailTextBox" HorizontalAlignment="Center" Height="70" Margin="64,422,24,276" TextWrapping="Wrap" VerticalAlignment="Center" Width="392" BorderBrush="{x:Null}" Background="{x:Null}" SelectionBackground="{x:Null}" GotFocus="emailTextBox_GotFocus" FontFamily="YouYuan" BorderThickness="0" CaretBrush="White" Foreground="White">
+            <TextBox.SelectionForeground>
+                <SolidColorBrush Color="#FFE5E5E5" Opacity="0.5"/>
+            </TextBox.SelectionForeground>
+        </TextBox>
+    </Grid>
+
+    <!--LayoutRoot 是包含所有页面内容的根网格-->
+
+</phone:PhoneApplicationPage>

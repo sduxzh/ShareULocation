@@ -1,0 +1,16 @@
+C:\Users\智皓\Desktop\Bin\SocketAsyncSvr.exe.config
+C:\Users\智皓\Desktop\Bin\SocketAsyncSvr.exe
+C:\Users\智皓\Desktop\Bin\SocketAsyncSvr.pdb
+C:\Users\智皓\Desktop\ImagineCup\Server\obj\x86\Debug\SocketAsyncSvr.exe
+C:\Users\智皓\Desktop\ImagineCup\Server\obj\x86\Debug\SocketAsyncSvr.pdb
+C:\Users\智皓\Desktop\中上\Bin\SocketAsyncSvr.exe.config
+C:\Users\智皓\Desktop\中上\ImagineCup\Server\obj\x86\Debug\SocketAsyncSvr.exe
+C:\Users\智皓\Desktop\中上\ImagineCup\Server\obj\x86\Debug\SocketAsyncSvr.pdb
+C:\Users\智皓\Desktop\中上\Bin\SocketAsyncSvr.exe
+C:\Users\智皓\Desktop\中上\Bin\SocketAsyncSvr.pdb
+C:\Users\智皓\Desktop\ImagineCup\Bin\SocketAsyncSvr.exe.config
+C:\Users\智皓\Desktop\ImagineCup\ImagineCup\Server\obj\x86\Debug\SocketAsyncSvr.exe
+C:\Users\智皓\Desktop\ImagineCup\ImagineCup\Server\obj\x86\Debug\SocketAsyncSvr.pdb
+I:\ImagineCup\Bin\SocketAsyncSvr.exe.config
+I:\ImagineCup\ImagineCup\Server\obj\x86\Debug\SocketAsyncSvr.exe
+I:\ImagineCup\ImagineCup\Server\obj\x86\Debug\SocketAsyncSvr.pdb

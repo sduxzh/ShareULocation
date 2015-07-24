@@ -1,0 +1,10 @@
+G:\ImagineCup\ServerClassLibrary\bin\Debug\ServerClassLibrary.dll
+G:\ImagineCup\ServerClassLibrary\bin\Debug\ServerClassLibrary.pdb
+G:\ImagineCup\ServerClassLibrary\obj\Debug\ServerClassLibrary.csprojResolveAssemblyReference.cache
+G:\ImagineCup\ServerClassLibrary\obj\Debug\ServerClassLibrary.dll
+G:\ImagineCup\ServerClassLibrary\obj\Debug\ServerClassLibrary.pdb
+C:\Users\智皓\Desktop\ImagineCup\ServerClassLibrary\bin\Debug\ServerClassLibrary.dll
+C:\Users\智皓\Desktop\ImagineCup\ServerClassLibrary\bin\Debug\ServerClassLibrary.pdb
+C:\Users\智皓\Desktop\ImagineCup\ServerClassLibrary\obj\Debug\ServerClassLibrary.csprojResolveAssemblyReference.cache
+C:\Users\智皓\Desktop\ImagineCup\ServerClassLibrary\obj\Debug\ServerClassLibrary.dll
+C:\Users\智皓\Desktop\ImagineCup\ServerClassLibrary\obj\Debug\ServerClassLibrary.pdb

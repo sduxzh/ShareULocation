@@ -1,0 +1,4 @@
+C:\Users\智皓\Desktop\ImagineCup\PhoneClassLibrary\Bin\x86\Debug\PhoneClassLibrary.dll
+C:\Users\智皓\Desktop\ImagineCup\PhoneClassLibrary\Bin\x86\Debug\PhoneClassLibrary.pdb
+C:\Users\智皓\Desktop\ImagineCup\PhoneClassLibrary\obj\x86\Debug\PhoneClassLibrary.dll
+C:\Users\智皓\Desktop\ImagineCup\PhoneClassLibrary\obj\x86\Debug\PhoneClassLibrary.pdb

@@ -1,0 +1,80 @@
+﻿<phone:PhoneApplicationPage
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity" xmlns:ec="clr-namespace:Microsoft.Expression.Interactivity.Core;assembly=Microsoft.Expression.Interactions"
+    x:Class="ImagineCup.AfterLoginPage"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush Stretch="Fill" ImageSource="/Images/search00.jpg"/>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="4*"/>
+            <RowDefinition Height="5*"/>
+        </Grid.RowDefinitions>
+        
+        <Grid x:Name="backgroundGrid" Grid.RowSpan="1" Canvas.ZIndex="0">
+            <Grid.Background>
+                <ImageBrush Stretch="Fill" ImageSource="/Images/usersinformationbackground.png"/>
+            </Grid.Background>
+            <Image x:Name="usersphotoImage" Height="150" Width="150" VerticalAlignment="Top" Margin="0,50,0,0" Source="/Images/usersphotoBorder.png"/>
+            <TextBlock x:Name="usersnameTextBox" Height="50" Width="200" Margin="0,220,0,0" VerticalAlignment="Top" Text="登录/注册" TextAlignment="Center" Padding="0,5,0,0" FontSize="24" FontFamily="YouYuan">
+				<i:Interaction.Triggers>
+					<i:EventTrigger EventName="MouseLeftButtonDown">
+						<ec:NavigateToPageAction TargetPage="/LoginPage.xaml"/>
+					</i:EventTrigger>
+				</i:Interaction.Triggers>
+            </TextBlock>
+            <RichTextBox x:Name="locationTextBox" Height="50" Width="auto" Margin="0,270,0,0" VerticalAlignment="Top" TextAlignment="Center" FontSize="24"  >
+                <Paragraph >
+                    <InlineUIContainer>
+                        <Image Width="16" Source="/Images/myLocationIcon00.png"/>
+                    </InlineUIContainer>
+                    <InlineUIContainer>
+                        <TextBlock Text=" 我的位置" Margin="0,0,0,25" VerticalAlignment="Bottom" FontFamily="YouYuan"/>
+                    </InlineUIContainer>
+                </Paragraph>
+            </RichTextBox>
+        </Grid>
+        <Grid x:Name="labelGrid" Grid.Row="1" Canvas.ZIndex="1"/>
+        <Grid x:Name="oherChoiceGrid" Grid.Row="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="3*"/>
+                <RowDefinition Height="3*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Button x:Name="guessyourlikeButton" BorderBrush="{x:Null}" ClickMode="Press" Click="guessyourlikeButton_Click" >
+                <Button.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="/Images/gridborder.png"/>
+                </Button.Background>
+
+
+            </Button>
+            <Button x:Name="dtknow1" Grid.Column="1" BorderBrush="{x:Null}" Click="dtknow1_Click" ClickMode="Press">
+                <Button.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="/Images/gridborder.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="dtknow2" Grid.Column="2" BorderBrush="{x:Null}" Foreground="{x:Null}" ClickMode="Press" Click="dtknow2_Click">
+                <Button.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="/Images/gridborder.png"/>
+                </Button.Background>
+            </Button>
+        </Grid>
+    </Grid>
+
+</phone:PhoneApplicationPage>
